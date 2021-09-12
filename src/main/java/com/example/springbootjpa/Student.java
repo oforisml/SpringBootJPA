@@ -23,6 +23,10 @@ public class Student {
     @Column(name = "age", nullable = false)
     private Integer age;
 
+    public Student(){
+
+    }
+
     public Student(Long id, String firstName, String lastName, String email, Integer age) {
         this.id = id;
         this.firstName = firstName;
